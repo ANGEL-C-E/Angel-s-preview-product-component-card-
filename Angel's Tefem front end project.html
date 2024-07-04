@@ -1,0 +1,84 @@
+<DOCTYPE! html>
+    <html>
+        <head>
+            <title>Affordable Nivea body cream</title>
+            <style>
+                .product-card{
+                    width: 600px;
+                    height:600px;
+                    border 1px solid #ccc;
+                    border-radius: 10px;
+                    padding:20px;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    justify-content: space-between;
+
+            
+                }
+                .product-card img{
+                    width:50%;
+                    height:350px;
+                    object-fit:cover;
+                    border-radius:10px10px 0 0;
+                }
+                .product-card h1{
+                    font-size:14 px;
+                    font-weight: bold;
+                    margin: top 0;
+
+                }
+                .product-card p{
+                    font-size: 40px;
+                    color:blue;
+
+                }
+                .product-card button{
+                    background-color: brown;
+                    color:black;
+                    padding:10px 20px;
+                    border:none;
+                    border-radius: 5px;
+                    cursor:pointer;
+                }
+                .product-card:hover{
+                    background-color: blue;
+                }
+                .product-card button:hover{
+                    background-color: blue;
+                }
+                /*Media Queries*/
+                @media(min-width:320px){
+                    .product-card{
+                        background-color:brown;
+                    }
+                }
+                @media(min-width:768px){
+                    .product-card{
+                        width:350px;
+                        height:450px;
+                    }
+                }
+                @media(min-width:1024px){
+                    .product-card{
+                        width:350px;
+                        height:450px;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+
+<div class="product-card">
+    <h1> Nivea body cream</h1>
+<img src="./Downloads/Pic for Angel/nivea body cream.jpg" alt="Nivea body cream" class="nivea "/>
+<p> Makes your skin feel soft and like that of a baby</p>
+<p>Price : N4000</p>
+<button onclick='alert("Added")'> Add to cart</button>
+</div>
+
+</body>
+    
+        
+
+    </html>
